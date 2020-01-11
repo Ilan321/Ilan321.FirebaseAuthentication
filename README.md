@@ -9,6 +9,7 @@
 1. If you haven't already, register an app on the [Firebase Console](https://console.firebase.google.com "Firebase Console").
 2. Follow the instructions on the [Auth Admin SDK](https://firebase.google.com/docs/admin/setup/ "Auth Admin SDK") page to setup the Firebase App instance.
 3. Import the ``Ilan321.FirebaseAuthentication`` namespace and call ``UseFirebaseAuthentication()`` in ``ConfigureServices()``.
+4. Add `[Authorize]` to any controllers you want secured. See the [MSDN page](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/simple "MSDN page") on authentication for more info.
 
 ### Options
 
