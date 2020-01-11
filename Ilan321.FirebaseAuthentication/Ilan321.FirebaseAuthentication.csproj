@@ -8,7 +8,9 @@
     <Company>ilan321</Company>
     <Product>FirebaseAuthentication</Product>
     <Description>Adds a Firebase Authentication handler for ASP.NET Core's Authentication middleware.</Description>
-    <PackageLicenseExpression>https://licenses.nuget.org/(LGPL-2.0-only%20WITH%20FLTK-exception%20OR%20Apache-2.0+)</PackageLicenseExpression>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Ilan321/Ilan321.FirebaseAuthentication</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ilan321/Ilan321.FirebaseAuthentication</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
