@@ -10,6 +10,13 @@
 2. Follow the instructions on the [Auth Admin SDK](https://firebase.google.com/docs/admin/setup/ "Auth Admin SDK") page to setup the Firebase App instance.
 3. Import the ``Ilan321.FirebaseAuthentication`` namespace and call ``UseFirebaseAuthentication()`` in ``ConfigureServices()``.
 
+### Options
+
+There are a couple configurable options:
+
+1. TokenHeaderName - the name of the HTTP header that contains the Firebase access token.
+2. AddFirebaseClaims - whether to include the firebase-supplied claims in the returned ClaimsPrinicpal.
+
 ### Example
 
 ```csharp
