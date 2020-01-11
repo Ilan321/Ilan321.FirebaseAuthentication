@@ -15,6 +15,7 @@
     <OutputType>Library</OutputType>
     <Version>3.1.0</Version>
     <PackageReleaseNotes>Changed target framework to .NET Core 3.1</PackageReleaseNotes>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
