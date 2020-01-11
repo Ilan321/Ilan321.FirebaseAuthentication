@@ -20,7 +20,7 @@ namespace Ilan321.FirebaseAuthentication
         /// </summary>
         /// <param name="initFbApp">Whether the <see cref="FirebaseApp"/> should be initialized as well. Pass false if you initialize the app yourself.</param>
         /// <param name="options">Optionally pass an options configuration action to configure the handler.</param>
-        public static AuthenticationBuilder UseFirebaseAuthentication(this AuthenticationBuilder authBuilder, bool initFbApp = true, Action<FirebaseAuthenticationOptions> options = null)
+        public static AuthenticationBuilder AddFirebaseAuthentication(this AuthenticationBuilder authBuilder, bool initFbApp = true, Action<FirebaseAuthenticationOptions> options = null)
         {
             if (initFbApp)
             {
