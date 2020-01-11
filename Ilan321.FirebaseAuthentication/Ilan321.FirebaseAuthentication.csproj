@@ -13,8 +13,8 @@
     <PackageProjectUrl>https://github.com/Ilan321/Ilan321.FirebaseAuthentication</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Ilan321/Ilan321.FirebaseAuthentication</RepositoryUrl>
     <OutputType>Library</OutputType>
-    <Version>3.1.0</Version>
-    <PackageReleaseNotes>Changed target framework to .NET Core 3.1</PackageReleaseNotes>
+    <Version>3.1.0.1</Version>
+    <PackageReleaseNotes>Fixed a naming convention and included documentation</PackageReleaseNotes>
     <IsPackable>true</IsPackable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
