@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilan321.FirebaseAuthentication", "Ilan321.FirebaseAuthentication\Ilan321.FirebaseAuthentication.csproj", "{62815A44-3C00-401E-A187-5EFC5B1D6527}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31AB0FB9-E660-45C0-AF4C-8D8DACA58602}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
